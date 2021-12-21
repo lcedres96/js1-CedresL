@@ -1,0 +1,11 @@
+alert("Calculador de prestamos | LC |");
+let nombreIngresado = prompt("Ingresa Nombre y Apellido");
+let salida = "Bienvenido " + "| " + nombreIngresado + " |";
+alert(salida);
+let a = prompt("Ingrsa el Monto que necesitas");
+let b = prompt("Ingresa el Número de Cuotas");
+let r = 23/20;
+let c = a * r;
+let d = c / b;
+let mensaje = "Su prestamo LC se le dara a pagar en " + b + " cuotas de $" + d;  
+alert(mensaje); 
